@@ -108,7 +108,7 @@ with col3:
         expander1.markdown("<h10 style='text-align: center; color: white;'>- Frequency (F): Frequency refers to how often a customer makes purchases </h10>", unsafe_allow_html=True)
         expander1.markdown("<h10 style='text-align: center; color: white;'>- Monetary Value (M): Monetary Value represents the total amount of money a customer has spent on purchases </h10>", unsafe_allow_html=True)
         expander1.image("Img/rfm.png")
-        expander1.markdown("<h10 style='text-align: center; color: white;'>Result it hvae 3 cluster gruops</h10>", unsafe_allow_html=True)
+        expander1.markdown("<h10 style='text-align: center; color: white;'>Result it have 3 cluster groups</h10>", unsafe_allow_html=True)
         expander1.markdown("<h10 style='text-align: center; color: white;'>Bronze customers are a group of new users who have not yet decided whether to purchase our product vs those of competitors.</h10>", unsafe_allow_html=True)
         expander1.markdown("<h10 style='text-align: center; color: white;'>Silver Customers are a group who often make small purchases; therefore, we are able to focus on promotions to raise ticket size.</h10>", unsafe_allow_html=True)
         expander1.markdown("<h10 style='text-align: center; color: white;'>Gold Customer is group is Big spender and royalty should maintain this group high impact on business.</h10>", unsafe_allow_html=True)
