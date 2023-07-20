@@ -100,5 +100,3 @@ with col3:
         st.button('Full code Github  ', on_click=open_page, args=('https://github.com/Nakarin225/onlineretail_analysis',))
         st.button('PowerBI Dashboard', on_click=open_page, args=('https://app.powerbi.com/singleSignOn?ru=https%3A%2F%2Fapp.powerbi.com%2F%3FnoSignUpCheck%3D1',))
 #         expander = st.expander("Additional Story info")
-#         expander.markdown("<h10 style='text-align: center; color: white;'>Classification: The label is a binary variable, 0 (will repay loan on time), 1 (will have difficulty repaying loan) 121 features </h10>", unsafe_allow_html=True)
-
