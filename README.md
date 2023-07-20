@@ -4,4 +4,5 @@
 
 With Streamlit, you can build data-driven web apps using simple Python scripts. The library provides various elements and widgets, such as sliders, buttons, text inputs, charts, and data tables, that enable you to visualize and interact with data in real-time. You can use Streamlit to create dashboards, data exploration tools, machine learning models, and more
 
-[![Watch the video](<https://s3-us-west-2.amazonaws.com/assets.streamlit.io/videos/streamlit_sharing_silent.mp4>)
+https://github.com/Nakarin225/streamlit_app/assets/64008691/7117d10b-0a98-4585-849d-0e51eb2b79a7
+
