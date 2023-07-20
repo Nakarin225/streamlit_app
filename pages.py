@@ -39,8 +39,8 @@ def get_img_with_href(local_img_path, target_url):
     return html_code
 
 url = "https://github.com/Nakarin225/Home-Credit-Default-Risk-analysis"
-gif_html = get_img_with_href('icons8-github-60.png', 'https://github.com/Nakarin225?tab=repositories')
-medium_html = get_img_with_href('icons8-medium-64.png', ' https://medium.com/@nakarinsariten')
+gif_html = get_img_with_href('Img/icons8-github-60.png', 'https://github.com/Nakarin225?tab=repositories')
+medium_html = get_img_with_href('Img/icons8-medium-64.png', ' https://medium.com/@nakarinsariten')
 #st.markdown(gif_html, unsafe_allow_html=True)
 
 c1, c2,c3,c4 ,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15= st.columns(15,gap="small")
@@ -59,18 +59,18 @@ col1, col2 , col3 = st.columns(3)
 with col1:
     st.markdown("<h3 style='text-align: center; color: white;'>Home Credit Default Risk</h3>", unsafe_allow_html=True)
     with st.container():
-        st.image("home.jpg")
+        st.image("Img/home.jpg")
         st.markdown("<h10 style='text-align: center; color: white;'>Many people struggle to get loans due to insufficient or non-existent credit histories. And, unfortunately, this population is often taken advantage of by untrustworthy lenders.</h10>", unsafe_allow_html=True)
         st.markdown("<h10 style='text-align: center; color: white;'>Home Credit strives to broaden financial inclusion for the unbanked population by providing a positive and safe borrowing experience. In order to make sure this underserved population has a positive loan experience, Home Credit makes use of a variety of alternative data--including telco and transactional information--to predict their clients' repayment abilities.</h10>", unsafe_allow_html=True)
         st.button('Full code Github', on_click=open_page, args=('https://github.com/Nakarin225/Home-Credit-Default-Risk-analysis',))
         expander = st.expander("Additional Story")
         expander.markdown("<h10 style='text-align: center; color: white;'>Classification: The label is a binary variable, 0 (will repay loan on time), 1 (will have difficulty repaying loan) 121 features </h10>", unsafe_allow_html=True)
-        df = pd.read_csv("testdata.csv")
+        df = pd.read_csv("Data/testdata.csv")
         expander.markdown("<h10 style='text-align: center; color: white;'>Sample data</h10>", unsafe_allow_html=True)
         expander.dataframe(df, use_container_width=True)
-        image1 = Image.open('chart1.png')
-        image2 = Image.open('chart2.png')
-        image3 = Image.open('Roc_curve.png')
+        image1 = Image.open('Img/chart1.png')
+        image2 = Image.open('Img/chart2.png')
+        image3 = Image.open('Img/Roc_curve.png')
         expander.markdown("<h10 style='text-align: center; color: white;'>Top Applicant's who applied for loan</h10>",unsafe_allow_html=True)
         expander.markdown("<h10 style='text-align: center; color: white;'>Laborers - Apprx. 55 K",unsafe_allow_html=True)
         expander.markdown("<h10 style='text-align: center; color: white;'>Sales Staff - Approx. 32 K",unsafe_allow_html=True)
@@ -86,7 +86,7 @@ with col1:
 with col2:
     st.markdown("<h3 style='text-align: center; color: white;'>Predict student performance</h3>", unsafe_allow_html=True)
     with st.container():
-        st.image("student.jpg")
+        st.image("Img/student.jpg")
         st.markdown("<h10 style='text-align: center; color: white;'>An end-to-end machine learning project typically involves several stages: data collection and preprocessing, model training and evaluation, deployment, and building a web application for prediction. I'll explain the steps involved in creating an end-to-end machine learning project to predict the scores of students using Flask and AWS.</h10>", unsafe_allow_html=True)
         st.button('Full code Github ', on_click=open_page, args=('https://github.com/Nakarin225/End-to-End-MLproject-to-predict-student-performance',))
 
@@ -95,9 +95,10 @@ with col2:
 with col3:
     st.markdown("<h3 style='text-align: center; color: white;'>Online Retail Analysis</h3>", unsafe_allow_html=True)
     with st.container():
-        st.image("retail.jpg")
+        st.image("Img/retail.jpg")
         st.markdown("<h10 style='text-align: center; color: white;'>This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.</h10>", unsafe_allow_html=True)
         st.button('Full code Github  ', on_click=open_page, args=('https://github.com/Nakarin225/onlineretail_analysis',))
         st.button('PowerBI Dashboard', on_click=open_page, args=('https://app.powerbi.com/singleSignOn?ru=https%3A%2F%2Fapp.powerbi.com%2F%3FnoSignUpCheck%3D1',))
 #         expander = st.expander("Additional Story info")
 #         expander.markdown("<h10 style='text-align: center; color: white;'>Classification: The label is a binary variable, 0 (will repay loan on time), 1 (will have difficulty repaying loan) 121 features </h10>", unsafe_allow_html=True)
+
