@@ -99,7 +99,7 @@ with col3:
         st.markdown("<h10 style='text-align: center; color: white;'>This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.</h10>", unsafe_allow_html=True)
         st.button('Full code Github  ', on_click=open_page, args=('https://github.com/Nakarin225/onlineretail_analysis',))
         st.button('PowerBI Dashboard', on_click=open_page, args=('https://app.powerbi.com/singleSignOn?ru=https%3A%2F%2Fapp.powerbi.com%2F%3FnoSignUpCheck%3D1',))
-        expander1 = st.expander("Additional Story ")
+        expander1 = st.expander("Additional Story  ")
         expander1.markdown("<h10 style='text-align: center; color: white;'>Cohort Analysis (Retention over User & Product Lifetime)</h10>", unsafe_allow_html=True)
         expander1.markdown("<h10 style='text-align: center; color: white;'>Cohort analysis is a technique used in data analysis to understand the behavior and characteristics of a specific group of customers</h10>", unsafe_allow_html=True)
         expander1.image("Img/cohort.png")
